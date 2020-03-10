@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Nicholas Roy">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Overpass:300,600&display=swap" rel="stylesheet">
+    <title>Blog</title>
+    <!-- JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src=“https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js”></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR STARTS -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.svg" alt="logo" class="logo" />
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary mr-3" type="button" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link btn btn-outline-primary" type="button" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BACKGROUND IMAGE -->
+
+    <section>
+        <div class="heading-image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="heading">
+                            <h1 class="heading-title">BLOGIFY</h1>
+                            <h2 class="heading-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore magna
+                            aliqua.</h2>
+                            <button type="button" class="btn btn-primary">Call to Action</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MIDDLE NAV -->
+
+    <!-- at full width -->
+    <section class="bg-white middle-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="d-flex category-list">
+                        <li id="all-button" class="category active" type="button" onclick="filterAll()">
+                            All Blogs
+                        </li>
+                        <li id="money-button" class="category" type="button" onclick="filterSelection('money-card', 'money-button')">
+                            Money
+                        </li>
+                        <li id="sport-button" class="category" type="button" onclick="filterSelection('sport-card', 'sport-button')">
+                            Sport
+                        </li>
+                        <li id="tech-button" class="category" type="button" onclick="filterSelection('tech-card', 'tech-button')">
+                            Tech
+                        </li>
+                    </ul>
+                </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+
+    <section>
+        <div class="main-image">
+            <div class="container">
+                <div class="row mt-5">
+                        <div class="col-12 col-lg-9 ">
+
+                            <div class="card bg-white money-card">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <img class="card-image" src="./images/tax.jpg" />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <a class="card-title-link" href="#">
+                                            <h1 class="card-title">10 Money Saving Tips</h1>
+                                        </a>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ab laborum nostrum libero, dolorum odit sunt omnis facilis eaque, cupiditate aliquam qui numquam! Eius iusto at, in impedit placeat hic!</p>
+                                        <h2 class="card-author">by Alan Accountant</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-white sport-card">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <img class="card-image" src="./images/sport.jpg" />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <a class="card-title-link" href="#">
+                                            <h1 class="card-title">My First Marathon</h1>
+                                        </a>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ab laborum nostrum libero, dolorum
+                                            odit sunt omnis facilis eaque, cupiditate aliquam qui numquam! Eius iusto at, in impedit placeat hic!
+                                        </p>
+                                        <h2 class="card-author">by Jim Jogger</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-white tech-card">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <img class="card-image" src="./images/technology.jpg" />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <a class="card-title-link" href="#">
+                                            <h1 class="card-title">Never Too Old To Code</h1>
+                                        </a>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ab laborum nostrum libero, dolorum
+                                            odit sunt omnis facilis eaque, cupiditate aliquam qui numquam! Eius iusto at, in impedit placeat hic!
+                                        </p>
+                                        <h2 class="card-author">by Dorothy Developer</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-white money-card">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <img class="card-image" src="./images/stocks.jpg" />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <a class="card-title-link" href="#">
+                                            <h1 class="card-title">My Day Stockbroking</h1>
+                                        </a>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ab laborum nostrum libero, dolorum
+                                            odit sunt omnis facilis eaque, cupiditate aliquam qui numquam! Eius iusto at, in impedit placeat hic!
+                                        </p>
+                                        <h2 class="card-author">by Tania Trader</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card bg-white sport-card">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <img class="card-image" src="./images/football.jpg" />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <a class="card-title-link" href="#">
+                                            <h1 class="card-title">Why I Love Football</h1>
+                                        </a>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ab laborum nostrum libero, dolorum
+                                            odit sunt omnis facilis eaque, cupiditate aliquam qui numquam! Eius iusto at, in impedit placeat hic!
+                                        </p>
+                                        <h2 class="card-author">by Fred Free-Kick</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card bg-white tech-card">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <img class="card-image" src="./images/hacking.jpg" />
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <a class="card-title-link" href="#">
+                                            <h1 class="card-title">Best Coding Hack</h1>
+                                        </a>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ab laborum nostrum libero, dolorum
+                                            odit sunt omnis facilis eaque, cupiditate aliquam qui numquam! Eius iusto at, in impedit placeat hic!
+                                        </p>
+                                        <h2 class="card-author">by Harry Hacker</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    
+                    <div class="col-3">
+                        <div class="bg-white d-none d-lg-block navigation-link-box">   
+                            <h3 class="navigation-link-title">More Blogs</h3>
+                            <a href="#" class="navigation-link">
+                                <h3 class="navigation-button">Health</h3>
+                            </a>
+                            <a href="#" class="navigation-link">
+                                <h3 class="navigation-button">Dating</h3>
+                            </a>
+                            <a href="#" class="navigation-link">
+                                <h3 class="navigation-button">Funny</h3>
+                            </a>
+                            <a href="#" class="navigation-link">
+                                <h3 class="navigation-button">Communication</h3>
+                            </a>
+                            <a href="#" class="navigation-link">
+                                <h3 class="navigation-button">Entertainment</h3>
+                            </a>
+                            <a href="#" class="navigation-link">
+                                <h3 class="navigation-button final">Food</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-xl-3">
+                    <p>produced by <a href="#"><span class="footer-author-name">Nicholas Roy</span></a></p>
+                </div>
+                <div class="col-6 d-none d-xl-block"></div>
+                <div class="col-12 col-xl-3">
+                    <ul class="footer-list d-flex">
+                        <li class="footer-button" type="button">
+                            Terms
+                        </li>
+                        <div class="separator"></div>
+                        <li class="footer-button" type="button">
+                            FAQ
+                        </li>
+                        <div class="separator"></div>
+                        <li class="footer-button" type="button">
+                            Privacy Policy
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- HOW TO CENTER ALIGN LIST ITEMS WHEN SHRINKING TO <= LG ?? -->
+
+</body>
+
+</html>
