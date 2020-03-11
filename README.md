@@ -10,4 +10,4 @@
 ----
 ## Or Visit the Live Site:
 
-https://github.com/NicholasRoy96/blogify.git
+https://nicholasroy96.github.io/blogify/
