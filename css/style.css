@@ -7,12 +7,19 @@ body {
 /* NAVBAR */
 
 .logo {
-    width: 150px;
+    width: 50px;
     color: white;
 }
 
 .navbar {
     background-color: #272a2e !important;
+}
+
+.navbar-title {
+    color: white;
+    font-style: bold;
+    margin-bottom: 0px;
+    border-bottom: 2px solid cornflowerblue;
 }
 
 /* BACKGROUND AND HEADING */
@@ -56,6 +63,7 @@ body {
 
 .heading-subtitle {
     margin-bottom: 3%;
+    font-style: italic;
 }
 
 .bg-white {
