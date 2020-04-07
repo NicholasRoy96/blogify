@@ -1,5 +1,5 @@
 # Blogify - HTML & CSS Blog Template
->Blog Website Template built using vanilla HTML, CSS, some Bootstrap, and plain JavaScript.
+>Blog Website Template built using HTML, CSS, some Bootstrap, and vanilla JavaScript.
 
 ----
 
