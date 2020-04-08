@@ -18,6 +18,7 @@ body {
 .navbar-title {
     color: white;
     font-style: bold;
+    font-family: 'Indie Flower', cursive;
     margin-bottom: 0px;
     border-bottom: 2px solid cornflowerblue;
 }
@@ -59,6 +60,8 @@ body {
 
 .heading-title {
     color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
 }
 
 .heading-subtitle {
