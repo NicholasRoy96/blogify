@@ -198,6 +198,11 @@ body {
     color: #89a8d6;
     letter-spacing: 2px;
     margin-left: 4px;
+    text-decoration: underline;
+}
+
+.footer-author-name:hover {
+    color: #6a83a8;
 }
 
 .footer-button:hover {
